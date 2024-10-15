@@ -16,7 +16,7 @@ export class ProjectsComponent {
 
   public arrayProjects = signal<IProjects[]>([
     {
-      src: 'assets/img/projects/lista-de-tarefas.png', 
+      src: '/public/assets/img/projects/lista-de-tarefas.png', 
       alt: 'Projeto Lista de Tarefas',
       title: 'Lista de Tarefas',
       with: '100px',
@@ -31,7 +31,7 @@ export class ProjectsComponent {
     },
 
     {
-      src: 'assets/img/projects/lista-de-tarefas.png', //trocar a imagem
+      src: '', //trocar a imagem
       alt: 'Projeto para Validar CPF',
       title: 'Validador de CPF com Python',
       with: '100px',
@@ -46,7 +46,7 @@ export class ProjectsComponent {
     },
 
     {
-      src: 'assets/img/projects/lista-de-tarefas.png', //Trocar imagem
+      src: '', //Trocar imagem
       alt: 'Projeto para Geração de CPF',
       title: 'Gerador de CPF',
       with: '100px',
@@ -61,7 +61,7 @@ export class ProjectsComponent {
     },
 
     {
-      src: 'assets/img/projects/lista-de-tarefas.png',//Trocar imagem
+      src: '',//Trocar imagem
       alt: 'Projeto da pagina do spotify',
       title: 'Landing page Spotify',
       with: '100px',
@@ -76,7 +76,7 @@ export class ProjectsComponent {
     },
 
     {
-      src: 'assets/img/projects/lista-de-tarefas.png',//Trocar Imagem
+      src: '',//Trocar Imagem
       alt: 'Projeto fazendo uma landing page de um perfil',
       title: 'Landing page Perfil',
       with: '100px',
@@ -91,7 +91,7 @@ export class ProjectsComponent {
     },
 
     {
-      src: 'assets/img/projects/lista-de-tarefas.png',//Trocar imagem
+      src: '',//Trocar imagem
       alt: 'Projeto fazendo uma lista de participantes',
       title: 'Lista de Participantes',
       with: '100px',

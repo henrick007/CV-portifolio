@@ -45,7 +45,7 @@
         &[open] {
             summary {
                 &::after {
-                    content: url("../../../../../assets/icons/chevron-up.svg");
+                    content: url("/public/assets/icons/chevron-up.svg");
                     margin-top: 5px;
                 }
                 border-radius: 7px 7px 0 0;
@@ -54,7 +54,7 @@
         &::not([open]) {
             summary {
                 &::after {
-                    content: url("../../../../../assets/icons/chevron-down.svg");
+                    content: url("/public/assets/icons/chevron-down.svg");
                     margin-top: 5px;
                 }
             }
